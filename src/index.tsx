@@ -1,3 +1,4 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
+import Select from './Select/Select';
+export { default as SelectProvider } from './Select/SelectContext';
+
+export default Select;
