@@ -1,4 +1,4 @@
 import Select from './Select/Select';
-export { default as SelectProvider } from './Select/SelectContext';
+import SelectProvider from './Select/SelectContext';
 
-export default Select;
+export { SelectProvider, Select };
